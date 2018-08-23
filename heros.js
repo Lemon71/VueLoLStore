@@ -6,7 +6,8 @@ export default [
         hero:'泰隆',
         price:99,
         sex:'男',
-        imgUrl:'../lib/images/yujiantailong.png',
+        // imgUrl:require('./lib/images/yujiantailong.png',改成下面，不然不能打包JS引用的图)片
+        imgUrl:require('./lib/images/yujiantailong.png') ,
         sales:9999
     },
     {
@@ -16,7 +17,7 @@ export default [
         hero:'艾希',
         price:99,
         sex:'女',
-        imgUrl:'../lib/images/luexinghanbing.png',
+        imgUrl:require('./lib/images/luexinghanbing.png'),
         sales:4624
     },
     {
@@ -26,7 +27,7 @@ export default [
         hero:'龙王',
         price:69,
         sex:'男',
-        imgUrl:'../lib/images/batianlongwang.png',
+        imgUrl:require('./lib/images/batianlongwang.png'),
         sales:8888
     },
     {
@@ -36,7 +37,7 @@ export default [
         hero:'锤石',
         price:79,
         sex:'男',
-        imgUrl:'../lib/images/xibuchuishi.png',
+        imgUrl:require('./lib/images/xibuchuishi.png'),
         sales:6432
     },
     {
@@ -46,7 +47,7 @@ export default [
         hero:'瑞文',
         price:59,
         sex:'女',
-        imgUrl:'../lib/images/weilaizhanshiruiwen.png',
+        imgUrl:require('./lib/images/weilaizhanshiruiwen.png'),
         sales:5979
     },
     {
@@ -56,7 +57,7 @@ export default [
         hero:'迦娜',
         price:36,
         sex:'女',
-        imgUrl:'../lib/images/nvzhubofengnv.png',
+        imgUrl:require('./lib/images/nvzhubofengnv.png'),
         sales:4067
     },
     {
@@ -66,7 +67,7 @@ export default [
         hero:'布兰德',
         price:55,
         sex:'男',
-        imgUrl:'../lib/images/zhanchangboss.png',
+        imgUrl:require('./lib/images/zhanchangboss.png'),
         sales:7942
     },
     {
@@ -76,7 +77,7 @@ export default [
         hero:'龙王',
         price:20,
         sex:'男',
-        imgUrl:'../lib/images/huijinlingzhu.png',
+        imgUrl:require('./lib/images/huijinlingzhu.png'),
         sales:1953
     },
     {
@@ -86,7 +87,7 @@ export default [
         hero:'锤石',
         price:45,
         sex:'男',
-        imgUrl:'../lib/images/xinghongchuishi.png',
+        imgUrl:require('./lib/images/xinghongchuishi.png'),
         sales:5932
     },
     {
@@ -96,7 +97,7 @@ export default [
         hero:'布兰德',
         price:10,
         sex:'男',
-        imgUrl:'../lib/images/linghunhuonan.png',
+        imgUrl:require('./lib/images/linghunhuonan.png'),
         sales:1542
     },
     {
@@ -106,7 +107,7 @@ export default [
         hero:'迦娜',
         price:100,
         sex:'女',
-        imgUrl:'../lib/images/yujianfengnv.png',
+        imgUrl:require('./lib/images/yujianfengnv.png'),
         sales:8502
     },
     {
@@ -116,7 +117,7 @@ export default [
         hero:'瑞文',
         price:199,
         sex:'女',
-        imgUrl:'../lib/images/huamulanruiwen.png',
+        imgUrl:require('./lib/images/huamulanruiwen.png'),
         sales:8032
     },
     {
@@ -126,7 +127,7 @@ export default [
         hero:'艾希',
         price:89,
         sex:'女',
-        imgUrl:'../lib/images/yuanjihuahanbing.png',
+        imgUrl:require('./lib/images/yuanjihuahanbing.png'),
         sales:7621
     }
 ]
